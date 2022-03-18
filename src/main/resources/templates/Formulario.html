@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang ="pt-br" xmlns:th="http://www.thymeleaf.org" > 
+<head>
+<meta charset="UTF-8">
+<title>Comanda</title>
+</head>
+<body>
+<form>
+<h1> Comanda </h1>
+<form>
+Produto:<input type="text" th:field="*{produto}" = "Digite o Produto"><br>
+Quantidade:<input type="text" th:field="*{quantidade}" = "Digite a Quantidade"><br>
+Preco:<input type="text" th:field="*{preco}" = "Digite o Preco"><br>
+Total:<input type="text" th:field="*{total}" = "Digite o Total"><br>
+
+<input type="submit" value="Comanda">
+
+</form>
+</body>
+</html>
